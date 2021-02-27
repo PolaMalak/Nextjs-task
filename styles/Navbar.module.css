@@ -1,0 +1,38 @@
+.nav {
+    height: 50px;
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .nav ul li a {
+    margin: 5px 15px;
+  }
+
+  .navItem{
+    margin:0px 50px 0px 50px;
+    border-radius: 15px;
+    border:1px solid white;
+    font:1.5em arial;
+  }
+  .login{
+    background-color: #28A745;
+    color: white !important;
+  }
+  .register{
+    background-color: white;
+    color: #28A745 !important;
+  }
+  .sticky{
+    position: fixed;
+  }

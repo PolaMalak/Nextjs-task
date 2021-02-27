@@ -1,0 +1,15 @@
+.leftSide{
+    float:left;
+    display: flex;
+    width:10%;
+    height: 600px;
+    margin: 20px;
+justify-content: left;
+align-items: flex-end;
+}
+@media (max-width: 1000px) {
+    .leftSide {
+      display: none;
+    }
+    
+  }

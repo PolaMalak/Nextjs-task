@@ -1,0 +1,12 @@
+.rightSide{
+    float:right;
+    width:10%;
+    height: 600px;
+    margin: 20px;
+}
+@media (max-width: 1000px) {
+    .rightSide {
+      display: none;
+    }
+    
+  }
