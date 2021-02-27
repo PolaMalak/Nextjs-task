@@ -15,7 +15,7 @@ export default function Home({news}) {
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch(` http://80.240.21.204:1337/news?skip=12&limit=10`)
+  const res = await fetch(` http://80.240.21.204:1337/news?skip=0&limit=100`)
   const news = await res.json()
   return {
     props:{
